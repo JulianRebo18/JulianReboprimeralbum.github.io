@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="texto">
+        <h1>Album Prueba</h1>
+    </div>
+    <div>
+        <p class="texto1">Es algo random que me puse a hacer a las 4am jejeje pero pienso mejorarlo cada vez mas...</p>
+    </div>
+    <section>
+        <img src="img/1.jpg" alt="">
+        <img src="img/2.jpg" alt="">
+        <img src="img/3.jpg" alt="">
+        <img src="img/4.jpg" alt="">
+        <img src="img/5.jpg" alt="">
+        <img src="img/6.jpg" alt="">
+        <img src="img/7.jpg" alt="">
+        <img src="img/8.jpg" alt="">
+        <img src="img/9.jpg" alt="">
+        <img src="img/10.jpg" alt="">
+        <img src="img/11.jpg" alt="">
+        <img src="img/12.jpg" alt="">
+        <img src="img/13.jpg" alt="">
+        <iframe class="music" style="border-radius:12px" src="https://open.spotify.com/embed/track/5HeKOKc4phmLn8e4I7EkzD?utm_source=generator" width="300" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
+    <script>
+        function autoplay() {
+            var t = setTimeout(function){
+                var button = document.querySelector('[title="Pñay"]') || false;
+                if (button) {
+                    console.log('Click', button)
+                    button.click()
+                }
+            }, 999)
+        }
+        document.addEventListener('DOMContentLoaded', (event) => {
+            autoplay()
+        })
+    </script>
+</body>
+</html>
